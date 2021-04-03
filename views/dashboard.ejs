@@ -1,0 +1,32 @@
+<% include ./partials/header %>
+<body id="bb">
+<div id="nav">
+  
+  <div id="logo">
+    <img src="img/logo.svg" height="100px" width="100px">
+  </div>
+  
+    <p id="lg">WELCOME HOME <%= currentUser.name %></p>
+    <p id="lg"> <a href="/logout">Logout</a></p> 
+
+</div>
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><div class="img"><a href="/newblog"><img src="img/blog.svg"></a></div></div>
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><div class="img"><a href="/blogshow"><img src="img/showall.svg"></div></a></div>
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><div class="img"><a href="/uploadimage"><img src="img/salai.svg"></a></div></div>
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><div class="img"><a href="/myblog"><img src="img/ads.svg"></div></a></div>
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><div class="img"><a href="/allimages"><img src="img/ads.svg"></div></a></div>
+</div>
+</div>
+<footer>
+  
+  <p id="copy">&copy;THE MANIPUR BLOG 2018</p>
+  <p id="copy">All Rights Reserved</p>
+  <p id="copy">Terms and Conditions</p>
+  <p id="copy">Privacy policy </p>
+  <p id="copy">Feedback</p>
+  
+</footer>
+<% include ./partials/footer %>

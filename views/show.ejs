@@ -1,0 +1,23 @@
+<% include ./partials/header %>
+<body id="shw">
+    <div id="a">
+        
+        <div id="b" class="container">
+            <p>THE MANIPUR BLOG</p>
+            <p>See all post here</p>
+        </div>
+    </div>
+    <div id="c" class="container-fluid">
+        <div id="c1">
+            <% blog.forEach(function(data){ %>
+        <div id="blogdemo" >
+            <a href="/blogshow/<%= data._id %>" ><p style="display:block;"><%= data.title %> - <i> <%= data.author.username %></i></p></a>
+            <p style="color:black;">Published on <%= data.date %></p>
+        </div>
+    <% }); %>
+    </div>
+    </div>
+    <div id="d">
+        &copy; THE MANIPUR BLOG 2018
+    </div> 
+<% include ./partials/footer %>

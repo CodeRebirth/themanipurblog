@@ -1,0 +1,16 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+      <%  data.forEach(function(data) { %>
+      <div style="border:none;margin:3px;">
+        <img src="<%= data.imageurl %>" height="200px" width="300px">
+        <p>Submitted by <%= data.author.username %></p>
+      </div>
+     <% }); %>
+     <div style="float:left;">
+         <a href="/dashboard">Go back</a>
+     </div>
+    </body>
+</html>

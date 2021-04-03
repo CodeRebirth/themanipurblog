@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+<nav>
+    <a style="color:black;" href="/blogshow">All blogs</a>
+    <a style="color:black;" href="/dashboard">Dashboard</a>
+</nav>
+<body id="show">
+        <h2 style="text-align:center;"><%= data.title %> </h2>
+        <hr>
+        <p>
+          <%= data.content %>  
+        </p>
+<div style="overflow:scroll;height:300px;border:1px solid black">
+    <p style="text-align:center;">Comments</p>
+    <hr>
+    <div class="container">
+    <% data.comments.forEach(function(data){ %>
+     <p><b><%= data.author.username %></b>:<%= data.text %></p> 
+    <% }); %> 
+    </div>
+</div>
+<div>
+    <a style="margin-left:20px;" href="/blogshow/<%=data._id %>/comments/new"><button  class="btn btn-lg btn-success">Comment</button></a>
+   </div> 
+<% include ./partials/footer %>

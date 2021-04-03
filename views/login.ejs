@@ -1,0 +1,29 @@
+<% include ./partials/header %>
+<body>
+ <div id="acc">
+    <div class="container">
+    <div id="form"  class="container">
+      <% if(message && message.length > 0){ %>
+      <div class="alert alert-danger">
+      <%= message %>
+      </div>
+    <%  } %>
+    <form action="/login" method="POST">
+    <h2>Log In</h2>
+    
+    <div class="formclass">
+    <input type="text" name="username" placeholder="Username" required/></input>
+    </div>
+    
+    <div class="formclass">
+    <input type="Password" name="password" placeholder="Password" required/></input>
+    </div>
+    <br>
+    
+    <button type="Submit" class="btn btn-lg btn-primary" style="outline:none;">Log In</button><br><br>
+    <a href="/forgot"><p>Forgot Password?</p></a>
+    </form>
+    </div>
+    </div>
+    </div>
+<% include ./partials/footer %>

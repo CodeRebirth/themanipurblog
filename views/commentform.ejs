@@ -1,0 +1,10 @@
+<% include ./partials/header %>
+<body>
+    <div class="container" style="text-align:center;padding-top:70px;">
+    <p style="color:black;">Comment on <%= data.title %> by <%= data.author.username %> </p>
+    <form action="/blogshow/<%= data._id %>/comments" method="POST">
+     <textarea class="form-control" rows="10%" cols="" name="comment[text]" style="color:black;border:1px solid black;"></textarea>
+     <button type="submit" class="btn btn-lg btn-success">Done</button>
+     </form>
+     </div>
+<% include ./partials/footer %>

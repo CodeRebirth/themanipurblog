@@ -1,0 +1,15 @@
+<% include ./partials/header %>
+
+<body id="blogpost">
+    <div id="sdbar">
+    </div>
+    <div id="ii"></div>
+    <div id="blogdta">
+            <form id="blgfrm" action="/blogshow" method="POST">
+                <input class="blgin" type="text" placeholder="Title" name="title"></input>
+                
+                 <textarea class="form-control" rows="20%" cols="" name="content">Here goes content.</textarea>
+           <button style="outline:nones" type="submit" class="btn btn-lg btn-primary">Submit</button>
+            </form>
+    </div>
+<% include ./partials/footer %>

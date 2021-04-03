@@ -1,0 +1,45 @@
+<% include ./partials/header %>
+<body>
+ <div id="acc">
+    <div class="container">
+    <div id="form"  class="container">
+    <form action="/signup" method="POST">
+    <h2>Sign Up To Access All Features.</h2>
+    
+    <div class="formclass">
+    <input type="text" name="username" placeholder="Username" maxlength="13" required/></input>
+    </div>
+    
+    <div class="formclass">
+    <input type="text" name="firstname" placeholder="First Name" required/></input>
+    </div>
+    
+    <div class="formclass">
+    <input type="text" name="lastname" placeholder="Last Name" required/></input>
+    </div>
+   <div class="formclass">
+    <input type="Password" name="password" id="password" placeholder="Password" minlength="5" required/></input>
+    </div>
+    
+    <div class="formclass">
+    <input type="Password" name="confirmpassword" id="confirm_password" placeholder="Confirm Password" minlength="5" required/></input>
+    </div>
+    <div class="formclass">
+    <input type="Email" name="email" placeholder="Email" minlength="7" required/></input>
+    </div>
+    
+    <div class="formclass">
+    <input type="text" name="mobile" placeholder="Mobile Number" minlength="10" maxlength="10" required/></input>
+    </div>
+   
+    
+    <button type="Submit" class="btn btn-lg btn-primary" style="outline:none;">Sign Up</button><br><br>
+    <p style="color:white;">Already Have An Account?</p><a id="lk" href="/login">Log In</a>
+    </form>
+    </div>
+    </div>
+    </div>
+    
+    
+   <script src="js/js.js"></script>  
+ <% include ./partials/footer %>

@@ -1,0 +1,343 @@
+/*main css file*/
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    /*font-family: 'M PLUS Rounded 1c', sans-serif;*/
+}
+p{
+    display: inline;
+}
+
+a{
+    margin-top: 7%;
+    color:white;
+    text-decoration: none;
+    text-transform: none;
+}
+a:hover{
+     color:white;
+     text-decoration: none;
+    
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+h1{
+    margin-bottom: 3px;
+    margin-top: 100px;
+}
+#form h2{
+    background-color:transparent;
+    font-weight:700;
+    margin-bottom:10px;
+}
+hr{
+    width: 70%;
+    height: 1px;
+}
+
+
+
+p{
+    display: inline;
+    color: white;
+}
+
+.jumbotron{
+   margin-top: 5%;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0, 0, 0, 0.0);
+   color: white;
+   text-shadow: 2px 2px #000000;
+   text-align: center;
+}
+.formclass{
+   font-size: 15px;
+   text-shadow: 1px 1px grey;
+   
+}
+
+#intromain{
+    height: 100%;
+    width:100%;
+    background-image: url("/img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bu{
+    height: 50px;
+    width: 200px;
+    box-sizing: border-box;
+    border:1px solid white;
+    background-color: transparent;
+    margin:6% auto 0 auto;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 6px;
+    
+}
+
+#lk{
+ color: white;
+}
+
+#form{
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px grey ;
+}
+
+input{
+    width: 60%;
+    height: 10%;
+    border-left: 5px solid Black;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+    padding:20px;
+    border-right:none;
+    background-color: transparent;
+    color: black;
+
+}
+#acc{
+    height: 100%;
+    width: 100%;
+    background-image: url("/img/trianglify.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+::placeholder {
+  color: black;
+  font-size:14px;
+}
+#bb{
+    height: 100%;
+    font-weight:700;
+}
+.row{
+    margin-bottom: 40px;
+}
+
+#nav{
+    height:15%;
+    width: 100%;
+    margin: 0;
+    background-image: url("/img/trianglify.svg");
+    text-align: right;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#logo{
+    max-height: 50px;
+    max-width: 50px;
+    float: left;
+}
+.container-fluid{
+    background-image: url("/img/tri.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 3px;
+}
+.img{
+    width: 200px;
+    height:200px;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+footer{
+    height: 200px;
+    width:100%;
+    text-align: center;
+    background-image: url("/img/trianglify.svg");
+}
+#copy{
+    display: block;
+    font-size: 14px;
+    padding-top: 10px;
+    color: black;
+    letter-spacing: 1px;
+}
+#lg{
+    color: black;
+    display: block;
+    padding-top: 9px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+#sdbar{
+    height: 100%;
+    width: 20%;
+    background-image: url("/img/trianglify.svg");
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+#ii{
+   
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    background-image:url("/img/thang.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    z-index: 2;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    
+}
+
+#blogdta{
+ 
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    z-index: 2;
+    
+}
+.btn-group-lg>.btn, .btn-lg{
+    margin-top: 2%;
+    margin-left: 0.2%;
+}
+.blgin{
+    margin-top:2%;
+    margin-left: 20%;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 5px;
+    text-align: justify;
+}
+.form-control{
+    margin-top:3%;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    text-align: justify;
+    background-color: transparent;
+    color: white;
+}
+
+#show{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+h2{ 
+    padding-top: 10px;
+    background-color: white;
+    margin: inherit;
+    border:none;
+}
+#show p{
+    display:block;
+    color: black;
+    line-height: 21pt;
+    font-size: 16px;
+    background-color: white;
+    text-align: justify;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#show div{
+    margin-bottom: 10px;
+}
+
+#commentshow{
+    width: 96%;
+    height: 300px;
+    margin: 0 auto;
+    border:1px solid black;
+}
+
+#a{
+    height: 15%;
+    width: 100%;
+    background-image: url("/img/trianglify.svg");
+}
+#b{
+    height: 100%;
+    width:70%;
+    background-color: transparent;
+    text-align: center;
+}
+#b p{
+    padding-top:5px;
+    display: block;
+    font-size: 20px;
+    color:black;
+    text-shadow: 1px 1px #ffffff;
+}
+#c1{
+    width: 60%;
+    margin: auto;
+    height: 100%;
+}
+#c{
+    height:80%;
+    width:100%;
+    background-color:white;
+    overflow:scroll;
+}
+#blogdemo{
+    height:20%;
+    width:100%;
+    background-color:white;
+    margin-top:1%;
+    padding-top: 2px;
+    text-align: center;
+}
+#blogdemo a{
+    font-size:30px;
+    margin: inherit;
+    border-bottom:1px solid black;
+}
+#blogdemo a p{
+   color:black;
+   margin: inherit;
+   font-size: 15px;
+   
+}
+#d{
+    height: 5%;
+    width:100%;
+    background-color: white;
+    text-align: center;
+    text-shadow: 2px 2px #ffffee;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    margin: 4px;
+    text-decoration: none;
+}
+nav a:hover{
+    margin: 4px;
+    border-bottom: 2px solid limegreen;
+    text-decoration: none;
+}
